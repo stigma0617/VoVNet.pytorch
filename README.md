@@ -32,8 +32,8 @@ This repo provides VoVNet-39/57 models trained on ImageNet classification datase
 
 ## Pretrained models
 
-- [VoVNet-39](https://www.dropbox.com/s/1lnzsgnixd8gjra/vovnet39_torchvision.pth)
-- [VoVNet-57](https://www.dropbox.com/s/6bfu9gstbwfw31m/vovnet57_torchvision.pth)
+- [VoVNet-39](https://dl.dropbox.com/s/1lnzsgnixd8gjra/vovnet39_torchvision.pth?dl=1)
+- [VoVNet-57](https://dl.dropbox.com/s/6bfu9gstbwfw31m/vovnet57_torchvision.pth?dl=1)
 
 
 ## Training & Inferecne
@@ -58,3 +58,15 @@ run `main.py` specifying data path, the desired model name`--arch`, and save-dir
 python main.py [imagenet-folder with train and val folders] --arch vovnet39 --savedir VoVNet39
 ````
 
+
+### Related projects
+
+[VoVNet-Detectron](https://github.com/stigma0617/maskrcnn-benchmark-vovnet/tree/vovnet)
+[VoVNet-DeepLabV3](https://github.com/stigma0617/VoVNet-DeepLabV3)
+
+
+### TO DO
+
+ - [ ] VoVNet-27-slim
+ - [ ] VoVNet-27-slim-depthwise
+ - [ ] VoVNet-99
