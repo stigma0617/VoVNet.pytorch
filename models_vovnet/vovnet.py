@@ -8,8 +8,8 @@ __all__ = ['VoVNet', 'vovnet27_slim', 'vovnet39', 'vovnet57']
 
 
 model_urls = {
-    'vovnet39': 'https://dl.www.dropbox.com/s/1lnzsgnixd8gjra/vovnet39_torchvision.pth?dl=1',
-    'vovnet57': 'https://dl.www.dropbox.com/s/6bfu9gstbwfw31m/vovnet57_torchvision.pth?dl=1'
+    'vovnet39': 'https://dl.dropbox.com/s/1lnzsgnixd8gjra/vovnet39_torchvision.pth?dl=1',
+    'vovnet57': 'https://dl.dropbox.com/s/6bfu9gstbwfw31m/vovnet57_torchvision.pth?dl=1'
 }
 
 
